@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,700;8..144,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFEDD5;
+    margin: 0 auto;
+    color: #2D2C2A;
+    border: 2px solid #FED7AA;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    position: relative;
+   
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 4px;
+
+    
+}
+
+header p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+header span{
+    color: #995000;
+}
+
+header ,section{
+    max-width: 300px;
+    margin: 0 auto;
+
+}
+section{
+    margin-bottom: 25px;
+
+}
+
+section h2 {
+    background-color: #FED7AA;
+    font-family: 'Roboto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+  
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    margin-bottom: 24px;
+    display: flex;
+}
+
+li .details {
+    max-width: 240px;
+
+}
+li .details h3 {
+    font-family: 'Roboto Serif', serif;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+li .price{
+    font-family: 'Roboto Serif', serif;
+ 
+}
